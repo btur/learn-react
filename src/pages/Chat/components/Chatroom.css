@@ -1,0 +1,20 @@
+.chatroom-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  flex-grow: 1
+}
+
+.chat-list {
+  background: white;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  flex-grow: 1;
+  max-height: calc(100vh - 140px) ; 
+  overflow: auto;
+}
+
+.chatbox {
+  width: 100;
+}
